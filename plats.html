@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/613a25ab47.js" crossorigin="anonymous"></script>
+    <script src="./js/Menus.js"></script>
+    <title>Plats</title>
+</head>
+<body>
+    <a href="#" onclick="history.go(-1);"><i class="fas fa-arrow-left"></i></a>
+    <div class="panier"><i class="fas fa-shopping-basket"></i></div>
+    <div class="menuPlats">
+        <p>Nos plats</p>
+        <a href="plats.html">
+          <img src="./images/plats.jpg" alt="Nos plats">
+        </a>
+     </div>
+     <div class="plats">
+         <div class="plat"> 
+            <p>sauce verte au viande <span>30 €</span></p>
+            <input id="quantitDeProduit" type="number" onclick="getTotalPrice();" min="1" value="1">
+         </div>
+         <div class="plat"> 
+            <p>coscous au viande de mouton <span>32 €</span></p>
+            <input id="quantitDeProduit" type="number" onclick="getTotalPrice();" min="1" value="1">
+         </div>
+         <div class="plat"> 
+            <p>pates fruit de mer <span>25 €</span></p>
+            <input id="quantitDeProduit" type="number" onclick="getTotalPrice();" min="1" value="1">
+         </div>
+         <div class="plat"> 
+            <p>riz au poulet <span>23 €</span></p>
+            <input id="quantitDeProduit" type="number" onclick="getTotalPrice();" min="1" value="1">
+         </div>
+         <div class="plat"> 
+            <p>payla <span>19 €</span></p>
+            <input id="quantitDeProduit" type="number" onclick="getTotalPrice();" min="1" value="1">
+         </div>
+         <div class="plat">
+            <p>dorate <span>13 €</span></p>
+            <input id="quantitDeProduit" type="number" onclick="getTotalPrice();" min="1" value="1">
+         </div>
+         <div class="plat">
+            <p>omelette <span> 10 €</span></p>
+            <input id="quantitDeProduit" type="number" onclick="getTotalPrice();" min="1" value="1">
+         </div>
+         <div class="plat">
+             <p>lazanya <span>18 €</span></p>
+             <input id="quantitDeProduit" type="number" onclick="getTotalPrice();" min="1" value="1">
+         </div>
+      <button class="btn">commander</button>
+     </div>
+     
+</body>
+</html>
